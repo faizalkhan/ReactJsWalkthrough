@@ -1,11 +1,11 @@
 import { useRef} from "react";
 import React, { useContext } from 'react';
-import { UserContext } from "../App";
+
 
 export const UseRefComp = () => {
 
 
-  const user = useContext(UserContext);
+  //const user = useContext(UserContext);
 
 
 
@@ -18,13 +18,11 @@ export const UseRefComp = () => {
     inputText.current.style.color = "red"
    }
 
-   console.log("useref", user)
-
 
  return (<>
  
 
-     <div> useref in username  {user}  </div>
+     <div> useref in username   </div>
 
 
 
